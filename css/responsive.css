@@ -1,0 +1,22 @@
+/* Default styles remain as they are */
+
+/* For tablets and small laptops */
+@media (max-width: 768px) {
+    /* Add styles for tablet or small laptop screens */
+    .container {
+        width: 90%; /* Example */
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    /* Styles for mobile screens */
+    .container {
+        width: 95%;
+        padding: 10px; /* Example: Adjust padding for mobile */
+    }
+
+    .button {
+        font-size: 16px; /* Slightly smaller button text on mobile */
+    }
+}

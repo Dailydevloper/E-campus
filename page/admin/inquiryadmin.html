@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Inquiries</title>
+
+    <link rel="stylesheet" href="/css/inquiry.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/framework7@7/framework7-bundle.min.css">
+    <link rel ="stylesheet" href ="/css/nav.css">
+</head>
+
+<body>
+
+<div class="page">
+    <div class="page-content">
+
+        <!-- HEADER -->
+        <div class="top-header"></div>
+
+        <div class="nav-bar">
+            <div class="menu-icon" onclick="history.back()">☰</div>
+            <h2>Student Inquiries</h2>
+            <img src="/image.design/element/profile.png" class="profile">
+        </div>
+
+        <!-- FILTERS -->
+        <div class="filters">
+            <select id="filterClass">
+                <option value="">Class</option>
+            </select>
+
+            <select id="filterSubject">
+                <option value="">Subject</option>
+            </select>
+        </div>
+
+        <!-- INQUIRY LIST -->
+        <div id="inquiryList" class="inquiry-list">
+            <p class="loading">Loading inquiries...</p>
+        </div>
+
+    </div>
+</div>
+<div class="footer-nav">
+    <div class="nav-item" onclick="goHome()">
+    
+        <img src="/image.design/element/pngwing.com (2).png">
+        </a>
+        <span>Home</span>
+    </div>
+
+    <div class="nav-item" onclick="goAdminSchedule()">
+        
+        <img src="/image.design/element/1 (1).png">
+        </a>
+        <span>Schedule</span>
+    </div>
+
+    <div class="nav-item" onclick="goMarkAttendance()">
+        
+        <img src="/image.design/element/profile check.png">
+        </a>
+        <span>Attendance</span>
+    </div>
+
+    <div class="nav-item" onclick="goInquiry()">
+       
+        <img src="/image.design/element/3png.png">
+        </a>
+        <span>Inquiry</span>
+    </div>
+
+    <div class="nav-item" onclick="goCalendar()">
+         
+        <img src="/image.design/element/2 (1).png">
+    </a>
+        <span>Calendar</span>
+    </div>
+</div>
+
+<script src="/js/inquiry.js"></script>
+
+</body>
+</html>

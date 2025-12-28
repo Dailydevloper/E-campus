@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home</title>
+
+    <!-- Global Layout CSS -->
+    <link rel="stylesheet" href="/css/homestudent.css">
+
+</head>
+
+<body>
+
+<!-- 🔵 TOP BLUE ARC -->
+<div class="top-header"></div>
+
+<!-- ⚪ WHITE NAV BAR -->
+<div class="nav-bar">
+    <div class="menu-icon">☰</div>
+    <h2>BGI E-CAMPUS</h2>
+    <img src="/image.design/element/profile.png" class="profile">
+</div>
+
+
+<!-- MAIN CONTENT -->
+<div class="page-content">
+
+    <!-- 📊 OVERALL ATTENDANCE BOX -->
+    <div class="attendance-box">
+        <p class="attendance-label">Overall Attendance</p>
+        <h1 id="attendanceValue" class="attendance-value">Loading...</h1>
+    </div>
+
+    <!-- Classes Schedule -->
+<div class="main-btn" onclick="goClassSchedule()">
+    <img src="/image.design/element/4.png" class="icon">
+    <span>Classes Schedule</span>
+</div>
+
+<!-- Feature Icons -->
+<div class="feature-box">
+    <div class="feature" onclick="goAttendance()">
+        <img src="/image.design/element/1 (1).png">
+    </div>
+
+    <div class="feature" onclick="goCalendar()">
+        <img src="/image.design/element/2 (1).png">
+    </div>
+
+    <div class="feature" onclick="goInquiry()">
+        <img src="/image.design/element/3png.png">
+    </div>
+</div>
+
+<!-- Bottom Button -->
+<div class="bottom-btn" onclick="goProfile()"></div>
+
+
+
+<!-- JS FILE -->
+<script src="/js/homestudent.js"></script>
+
+</body>
+</html>
+

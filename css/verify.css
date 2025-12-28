@@ -1,0 +1,93 @@
+/* Reset and Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-wrapper {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1a2a47; /* Navy color from your logo design */
+    margin-bottom: 10px;
+}
+
+.subtext {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+/* OTP Container and Boxes */
+.otp-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.otp-box {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.otp-box:focus {
+    border-color: #0088cc;
+    box-shadow: 0 0 5px rgba(0, 136, 204, 0.2);
+}
+
+/* Button Styling */
+.btn {
+    background-color: #1a2a47; /* Matching your theme */
+    color: white;
+    border: none;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 30px; /* Rounded button style */
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #005580;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .otp-box {
+        width: 50px;
+        height: 50px;
+    }
+}

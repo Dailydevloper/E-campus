@@ -1,0 +1,137 @@
+body {
+    background: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-header {
+    width: 100%;
+    height: 150px;
+    background: #0b2a4f;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+.nav-bar {
+    width: 88%;
+    height: 70px;
+    background: white;
+    margin: -40px auto 25px;
+    border-radius: 50px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu-icon { font-size: 24px; color: #0b2a4f; }
+.profile { width: 45px; height: 45px; border-radius: 50%; }
+
+.form-container {
+    width: 88%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+select, input, textarea {
+    width: 100%;
+    border: 2px solid #0b2a4f;
+    border-radius: 15px;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+.submit-btn {
+    width: 100%;
+    background: #0b2a4f;
+    color: white;
+    padding: 16px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: none;
+}
+body { font-family: 'Poppins'; background: #fff; }
+
+.top-header {
+    height: 150px;
+    background: #0b2a4f;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+.nav-bar {
+    background: #fff;
+    width: 88%;
+    height: 70px;
+    margin: -40px auto 20px;
+    border-radius: 50px;
+    padding: 0 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-icon { font-size: 24px; color: #0b2a4f; }
+.profile { width: 45px; border-radius: 50%; }
+
+/* filters */
+.filters {
+    width: 88%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters select {
+    width: 48%;
+    padding: 14px;
+    border: 2px solid #0b2a4f;
+    border-radius: 15px;
+}
+
+/* list */
+.inquiry-list {
+    width: 88%;
+    margin: 20px auto;
+}
+
+.inquiry-card {
+    background: #0b2a4f;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.inquiry-card p { margin: 5px 0; }
+
+.btn-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.action-btn {
+    width: 48%;
+    padding: 12px;
+    border-radius: 15px;
+    font-size: 16px;
+    border: none;
+}
+
+.accept { background: #4CAF50; color: white; }
+.reject { background: #D9534F; color: white; }

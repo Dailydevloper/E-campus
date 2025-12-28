@@ -1,0 +1,122 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+}
+
+.top-header {
+    width: 100%;
+    height: 150px;
+    background: #0b2a4f;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+/* NAVBAR */
+.nav-bar {
+    width: 88%;
+    background: white;
+    height: 70px;
+    margin: -40px auto 25px;
+    border-radius: 50px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.menu-icon { font-size: 24px; color: #0b2a4f; }
+.profile { width: 45px; height: 45px; border-radius: 50%; }
+
+/* CLASS SCHEDULE BOX */
+.schedule-container {
+    width: 90%;
+    margin: auto;
+}
+
+.schedule-card {
+    background: #0b2a4f;
+    color: white;
+    padding: 18px;
+    border-radius: 20px;
+    margin-bottom: 18px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.subject {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.time {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.room {
+    font-size: 14px;
+    margin-top: 2px;
+    opacity: 0.8;
+}
+
+.loading-text {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: white;
+}
+
+.top-header {
+    width: 100%;
+    height: 150px;
+    background: #0b2a4f;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+.nav-bar {
+    width: 88%;
+    height: 70px;
+    background: white;
+    border-radius: 50px;
+    margin: -40px auto 20px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.menu-icon { font-size: 24px; color: #0b2a4f; }
+.profile { width: 45px; height: 45px; border-radius: 50%; }
+
+.filters {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-box {
+    width: 48%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 2px solid #0b2a4f;
+    font-size: 16px;
+}
+
+.schedule-container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.schedule-card {
+    background: #0b2a4f;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 15px;
+}

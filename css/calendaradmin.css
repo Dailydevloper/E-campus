@@ -1,0 +1,139 @@
+/* Core Layout */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column; /* Ensures vertical stacking as seen in screenshots */
+    align-items: center;
+    padding-bottom: 100px; /* Space for the fixed footer to prevent content overlap */
+}
+
+/* Top Header */
+.nav-bar {
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-sizing: border-box;
+    align-self: flex-start; /* Aligns header to the left */
+}
+
+.nav-bar h2 {
+    font-size: 1.4rem;
+    margin: 0;
+    font-family: serif;
+    font-weight: bold;
+}
+
+/* Profile Image Styling */
+.profile-section {
+    margin: 10px 0 25px 0;
+}
+
+.profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #f0f0f0;
+    object-fit: cover;
+}
+
+/* Admin Form Controls - Correction for squashed horizontal inputs */
+.calendar-admin-tools {
+    width: 90%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column; /* Changed to column to fix squashed horizontal layout */
+    gap: 12px;
+}
+
+.input-row {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens to prevent squishing */
+    gap: 8px;
+    width: 100%;
+}
+
+.input-row input, .input-row select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    flex: 1 1 120px; /* Allows inputs to grow but maintain a minimum width */
+    min-width: 0;
+}
+
+.add-event-btn {
+    width: 100%;
+    background-color: #1a2a47; /* Specific dark navy from your design */
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Calendar Styling */
+.calendar-wrapper {
+    width: 95%;
+    margin-top: 20px;
+}
+
+/* Footer Navigation - Properly spaced for icons and labels */
+.footer-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 -4px 15px rgba(0,0,0,0.08);
+    border-radius: 25px 25px 0 0;
+    z-index: 1000;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex: 1;
+}
+
+.nav-item img {
+    width: 24px; /* Slightly larger for better mobile visibility */
+    height: 24px;
+    margin-bottom: 4px;
+    object-fit: contain;
+}
+
+.nav-item span {
+    font-size: 11px;
+    color: #1a2a47;
+}
+
+.nav-item.active {
+    border-top: 3px solid #1a2a47;
+    margin-top: -3px; 
+}
+
+.nav-item.active span {
+    font-weight: bold;
+}
+
+/* Framework7 Event Dot Colors */
+.calendar-day-event { border-radius: 50%; }
+.event-holiday { background: #ff3b30 !important; } /* Red */
+.event-exam { background: #ffcc00 !important; }    /* Yellow */
+.event-general { background: #007aff !important; } /* Blue */

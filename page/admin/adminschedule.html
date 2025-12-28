@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Class Schedule</title>
+
+    <link rel="stylesheet" href="/css/studentclass.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/framework7@7/framework7-bundle.min.css">
+    <link rel ="stylesheet" href="/css/nav.css">
+</head>
+
+<body>
+
+<div class="page">
+    <div class="page-content">
+
+        <div class="top-header"></div>
+
+        <!-- NAVBAR -->
+        <div class="nav-bar">
+            <div class="menu-icon" onclick="history.back()">☰</div>
+            <h2>Admin Schedule</h2>
+            <img src="/image.design/element/profile.png" class="profile">
+        </div>
+
+        <!-- FILTERS -->
+        <div class="filters">
+            <select id="classFilter" class="filter-box">
+                <option value="">Select Class</option>
+            </select>
+
+            <select id="subjectFilter" class="filter-box">
+                <option value="">Select Subject</option>
+            </select>
+        </div>
+
+        <!-- SCHEDULE LIST -->
+        <div class="schedule-container" id="adminScheduleList">
+            <p class="loading-text">Loading...</p>
+        </div>
+
+    </div>  0p[''78]
+</div>
+<div class="footer-nav">
+    <div class="nav-item" onclick="goHome()">
+        
+         <img src="/image.design/element/pngwing.com (2).png">
+    </a>
+        <span>Home</span>
+    </div>
+
+    <div class="nav-item" onclick="goAdminSchedule()">
+       
+            <img src="/image.design/element/1 (1).png">
+
+        
+        <span>Schedule</span>
+    </div>
+
+    <div class="nav-item" onclick="goMarkAttendance()">
+     
+  <img src="/image.design/element/profile check.png">
+
+        <span>Attendance</span>
+    </div>
+
+    <div class="nav-item" onclick="goInquiry()">
+          
+        <img src="/image.design/element/3png.png">
+
+        <span>Inquiry</span>
+    </div>
+
+    <div class="nav-item" onclick="goCalendar()">
+        
+        <img src="/image.design/element/2 (1).png">
+
+        <span>Calendar</span>
+    </div>
+</div>
+<script src ="/js/adminschedule.js"></script>
+
+</body>
+</html>

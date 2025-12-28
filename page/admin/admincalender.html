@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Admin | Academic Calendar</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/framework7@7/framework7-bundle.min.css">
+    <link rel="stylesheet" href="/css/calendaradmin.css">
+</head>
+<body>
+
+<div id="app">
+    <div class="view view-main">
+        <div class="page">
+            <div class="page-content">
+
+                <header class="nav-bar">
+                    <div class="menu-icon">☰</div>
+                    <h2>Academic Calendar</h2>
+                </header>
+
+                <div class="profile-section">
+                    <img src="/image.design/element/profile.png" class="profile-img" alt="Admin Profile">
+                </div>
+
+                <section class="calendar-admin-tools">
+                    <div class="input-row">
+                        <input type="text" id="eventTitle" placeholder="Event title">
+                        <input type="date" id="eventDate"> 
+                        <select id="eventType">
+                            <option value="holiday">Holiday</option>
+                            <option value="exam">Exam</option>
+                            <option value="general">Event</option>
+                        </select>
+                    </div>
+                    <button class="add-event-btn" id="btnAddEvent">Add Event</button>
+                </section>
+
+                <div class="calendar-wrapper">
+                    <div id="calendar-container"></div>
+                </div>
+
+                <footer class="footer-nav">
+                    <div class="nav-item" onclick="goHome()">
+                        <img src="/image.design/element/pngwing.com (2).png" alt="Home">
+                        <span>Home</span>
+                    </div>
+
+                    <div class="nav-item" onclick="goAdminSchedule()">
+                        <img src="/image.design/element/1 (1).png" alt="Schedule">
+                        <span>Schedule</span>
+                    </div>
+
+                    <div class="nav-item" onclick="goMarkAttendance()">
+                          <img src="/image.design/element/profile check.png">
+                        <span>Attendance</span>
+                    </div>
+
+                    <div class="nav-item" onclick="goInquiry()">
+                        <img src="/image.design/element/3png.png" alt="Inquiry">
+                        <span>Inquiry</span>
+                    </div>
+
+                    <div class="nav-item active" onclick="goCalendar()">
+                        <img src="/image.design/element/2 (1).png" alt="Calendar">
+                        <span>Calendar</span>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/framework7@7/framework7-bundle.min.js"></script>
+<script src="/js/calendraadmin.js"></script>
+
+</body>
+</html>

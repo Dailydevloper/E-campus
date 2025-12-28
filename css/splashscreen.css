@@ -1,0 +1,43 @@
+/* Fullscreen Layout */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Center Container */
+/* Add this to your /css/splash screen .css file */
+.splash-container {
+    /* Ensure the splash screen is visible initially and covers the whole screen */
+    opacity: 1; 
+    /* Set a default transition for a smoother initial experience */
+    transition: opacity 0.5s ease-in-out; 
+    /* Other existing styles for positioning/size */
+    /* ... */
+}
+
+/* Logo */
+.splash-logo {
+  width: 260px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* College Name */
+/*.college-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  line-height: 32px;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
